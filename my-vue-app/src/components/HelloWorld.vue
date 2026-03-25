@@ -4,7 +4,7 @@ import viteLogo from '../assets/vite.svg'
 import heroImg from '../assets/hero.png'
 import vueLogo from '../assets/vue.svg'
 
-const count = ref(0)
+const count = ref(99)
 </script>
 
 <template>
@@ -15,10 +15,10 @@ const count = ref(0)
       <img :src="viteLogo" class="vite" alt="Vite logo" />
     </div>
     <div>
-      <h1>Get started</h1>
+      <h1>lihengzhe</h1>
       <p>Edit <code>src/App.vue</code> and save to test <code>HMR</code></p>
     </div>
-    <button class="counter" @click="count++">Count is {{ count }}</button>
+    <button class="counter" @click="count--">Count is {{ count }}</button>
   </section>
 
   <div class="ticks"></div>
